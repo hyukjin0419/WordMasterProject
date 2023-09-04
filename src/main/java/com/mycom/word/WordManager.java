@@ -34,7 +34,7 @@ public class WordManager {
                 int menu = selectMenu();
                 if (menu == 0) {
                     System.out.println("프로그램이 종료.");
-                    break;
+                    System.exit(0);
                 }
                 if (menu == 1) {
                     wordCRUD.listAll();
@@ -44,6 +44,8 @@ public class WordManager {
                     wordCRUD.updateItem();
                 } else if (menu == 6) {
                     wordCRUD.deletItem();
+                } else if (menu == 7){
+                    wordCRUD.saveFile();
                 }
             }
         }
