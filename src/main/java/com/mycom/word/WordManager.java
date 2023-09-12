@@ -29,11 +29,11 @@ public class WordManager {
     public void start() {
         while(true) {
 
-            wordCRUD.loadFile();
+            //wordCRUD.loadFile();
             while(true) {
                 int menu = selectMenu();
                 if (menu == 0) {
-                    System.out.println("프로그램이 종료.");
+                    System.out.println("프로그램 종료.");
                     System.exit(0);
                 }
                 if (menu == 1) {
