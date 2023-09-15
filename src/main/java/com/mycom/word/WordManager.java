@@ -37,7 +37,7 @@ public class WordManager {
                     System.exit(0);
                 }
                 if (menu == 1) {
-                    wordCRUD.listAll();
+                    wordCRUD.listAll("");
                 } else if (menu == 2) {
                     wordCRUD.searchLevel();
                 } else if (menu == 3) {
@@ -47,7 +47,7 @@ public class WordManager {
                 } else if (menu == 5) {
                     wordCRUD.updateItem();
                 } else if (menu == 6) {
-                    wordCRUD.deletItem();
+                    wordCRUD.deleteItem();
                 } else if (menu == 7){
                     wordCRUD.saveFile();
                 }
