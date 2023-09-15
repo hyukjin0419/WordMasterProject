@@ -51,6 +51,7 @@ public class WordCRUD implements ICRUD{
             }
             rs.close();
             stmt.close();
+            System.out.println("=> " + list.size() + "개 단어 로딩 완료!");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -183,15 +184,14 @@ public class WordCRUD implements ICRUD{
         int id =s.nextInt();
         id = list.get(id-1).getId();
         s.nextLine();
-        //Word word = list.get(idlist.get(id - 1));
-        //word.setMeaning(meaning);
-
-        //id를 찾아서 ->
-        int val = this.delete(id);
-        if(val > 0)
-            System.out.println("단어가 수정되었습니다.");
-        else
-            System.out.println("[수정] 에러발생.");
+        System.out.print("=> 정말로 삭제하실래요?(Y/n) : ");
+        String ans = s.next();
+        if(ans.equalsIgnoreCase("y")){
+            delete(id);
+            System.out.println("단어가 삭제되었습니다.");
+        } else{
+            System.out.println("취소되었습니다.");
+        }
     }
 
     @Override
