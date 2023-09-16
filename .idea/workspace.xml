@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4e5dabd-6c5b-471a-8614-18010025ef8d" name="Changes" comment="스크린샷 이름 수정">
-      <change beforePath="$PROJECT_DIR$/screenshots/0.프로그램 종료.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/1.모든 단어 보기 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/1.모든 단어 보기.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/2.수준별 단어 보기.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/3.단어 검색.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/4.단어추가를 위한 테스트.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/7.파일 저장 기능 -&gt; DB에는 자동으로 반영되며 파일로도 데이터를 출력할 수 있음.png" beforeDir="false" />
+    <list default="true" id="a4e5dabd-6c5b-471a-8614-18010025ef8d" name="Changes" comment="스크린샷 이름 공백제거">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +95,8 @@
       <workItem from="1694765353177" duration="1314000" />
       <workItem from="1694773112688" duration="641000" />
       <workItem from="1694775444622" duration="378000" />
+      <workItem from="1694775828714" duration="1009000" />
+      <workItem from="1694839112557" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Formed all files">
       <option name="closed" value="true" />
@@ -205,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694775563751</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="스크린샷 이름 공백제거">
+      <option name="closed" value="true" />
+      <created>1694775886469</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694775886469</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +229,8 @@
     <MESSAGE value="Code Refectoring" />
     <MESSAGE value="스크린샷 추가" />
     <MESSAGE value="스크린샷 이름 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="스크린샷 이름 수정" />
+    <MESSAGE value="스크린샷 이름 공백제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="스크린샷 이름 공백제거" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
